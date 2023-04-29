@@ -1,4 +1,4 @@
-SELECT title_album FROM album
+SELECT title_album FROM album 
 WHERE album_release = 2018;
 
 
@@ -19,9 +19,7 @@ SELECT nick_name FROM performer
 WHERE nick_name NOT LIKE '% %'
 
 
-SELECT title_song FROM song
-WHERE title ILIKE ANY (ARRAY['%my%', '%мой%']);
+SELECT title_song FROM song 
+WHERE title_song ILIKE ANY (ARRAY['%my%', '%мой%']);
 
-
-
-
+	
