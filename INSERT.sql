@@ -1,5 +1,5 @@
 INSERT INTO genre (genre_name)
-VALUES
+VALUES 
 	('Rock'),
 	('Rap'),
 	('Alternative'),
@@ -8,7 +8,7 @@ VALUES
 
 
 INSERT INTO performer (nick_name)
-VALUES
+VALUES 
 	('Radio tapok'),
 	('Fun mode'),
 	('Eminem'),
@@ -16,7 +16,7 @@ VALUES
 	('Gorillaz'),
 	('Radiohead'),
 	('Bob Marley'),
-	('Perceval'),
+	('Percival'),
 	('Marcin Przybyłowicz');
 
 
@@ -30,13 +30,11 @@ VALUES
 	(3, 6),
 	(4, 7),
 	(5, 8),
-	(5, 9);
-
-INSERT INTO genre_performer (genre_id, performer_id)
-VALUES
+	(5, 9),
 	(1, 2),
 	(3, 1),
 	(5, 1);
+
 
 INSERT INTO album (title_album, album_release)
 VALUES
@@ -61,13 +59,14 @@ VALUES
 	(6, 6),
 	(7, 7),
 	(8, 8),
-	(9, 9);
-
-
+	(9, 9),
+	(1, 2),
+	(3, 1),
+	(5, 1);
 
 
 INSERT INTO song (album_id, title_song, duration)
-VALUES
+VALUES 
 	(1, 'Цусима', 270),
 	(1, 'Высота 776', 197),
 	(1, 'Битва За Москву', 243),
@@ -94,13 +93,11 @@ VALUES
 	(8, 'Hail To Caranthir', 391),
 	(9, 'My Novigrad', 243),
 	(9, 'Silver for Monsters', 332),
-	(9, 'Sword of Desteny', 332);
-
-INSERT INTO song (album_id, title_song, duration)
-VALUES
+	(9, 'Sword of Desteny', 332),
 	(2, 'Мой', 190),
 	(2, 'Я буду здесь', 224),
 	(1, 'Sabaton style', 182);
+
 
 INSERT INTO collection(title, year_collection)
 VALUES
@@ -112,12 +109,10 @@ VALUES
 	('Bob Marley gold', 2019),
 	('Очень плохая музыка', 2016),
 	('The Witcher 3', 2016);
-
-
-
+	
 
 INSERT INTO song_collection(song_id, collection_id)
-VALUES
+VALUES 
 	(1, 1),
 	(2, 1),
 	(3, 1),
@@ -145,32 +140,3 @@ VALUES
 	(25, NULL),
 	(26, NULL),
 	(27, NULL);
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
